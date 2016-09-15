@@ -8,7 +8,6 @@ export default class CanvasContainer extends Component {
     this.state = {
 
     }
-    // this.handleResize = this.handleResize.bind(this);
   }
   componentDidMount() {
     //  CanvasContainer must mount before we query for height/width, so can't

@@ -10,10 +10,6 @@ export default class AppContainer extends Component {
       gridShown: true,
       canvasCleared: true
     }
-    // this.handleColorSelect = this.handleColorSelect.bind(this)
-    // this.handleGridToggle = this.handleGridToggle.bind(this)
-    // this.handleCanvasClear = this.handleCanvasClear.bind(this)
-    // this.handleDirtyCanvas = this.handleDirtyCanvas.bind(this)
   }
   handleColorSelect = (color) => {
     this.setState({

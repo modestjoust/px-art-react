@@ -24,7 +24,6 @@ export default class ColorPicker extends Component {
         '#ffffff'
       ]
     }
-    // this.handleColorSelect = this.handleColorSelect.bind(this)
   }
   handleColorSelect = (color) => {
     this.props.handleColorSelect(color);

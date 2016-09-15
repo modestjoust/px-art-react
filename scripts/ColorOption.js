@@ -8,7 +8,6 @@ export default class ColorOption extends Component {
       color: props.color,
       gridSize: props.gridSize
     }
-    // this.handleClick = this.handleClick.bind(this);
   }
   handleClick = (e) => {
     var color = e.target.attributes['color'].value;

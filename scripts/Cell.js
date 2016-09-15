@@ -8,8 +8,6 @@ export default class Cell extends Component {
       gridSize: props.gridSize,
       color: '#cccccc'
     }
-    // this.handleClick = this.handleClick.bind(this)
-    // this.clearColor = this.clearColor.bind(this)
   }
   componentWillReceiveProps(nextProps) {
     if (nextProps.canvasCleared) {
