@@ -30,7 +30,9 @@ export default class ColorPicker extends Component {
   }
   render() {
     // cellWidth = container width divided by number colors, 2 rows
-    let cellWidth = this.props.toolboxWidth / this.state.numColors * 2;
+    console.log('tb width:', this.props.toolboxWidth, 'numColors:', this.state.colors.length)
+    let cellWidth = this.props.toolboxWidth / this.state.colors.length * 2;
+    console.log(cellWidth)
 
     let colorOptions = [];
     for (let i = 0; i < this.state.colors.length; i++)
